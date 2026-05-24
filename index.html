@@ -3,19 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MichelLondon26</title>
+  <title>London Trip Planner</title>
   <link rel="stylesheet" href="styles.css">
+  <script>if (window.innerWidth < 768) window.location.replace('schedule.html');</script>
 </head>
-<body>
-  <header>
-    <h1>MichelLondon26</h1>
+<body class="planner-page">
+  <nav class="navbar">
+    <a href="index.html" class="nav-link active">Planner</a>
+    <a href="schedule.html" class="nav-link">Schedule</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>London 2026</h1>
+      <p class="hero-sub">Michel, Maryam & Raffi &mdash; June 20–27</p>
+    </div>
   </header>
-  <main id="content">
-    <p>Loading...</p>
+
+  <div class="day-tabs" id="dayTabs"></div>
+
+  <main class="planner-layout">
+    <div class="panel panel-available" id="availablePanel">
+      <div class="panel-header">Available Places</div>
+      <div id="availableList"></div>
+    </div>
+    <div class="panel panel-itinerary" id="itineraryPanel">
+      <div class="panel-header">Your Itinerary</div>
+      <div id="itineraryList"></div>
+    </div>
   </main>
-  <footer>
-    <p>&copy; 2026 MichelLondon26</p>
-  </footer>
-  <script src="app.js"></script>
+
+  <script src="planner.js"></script>
 </body>
 </html>

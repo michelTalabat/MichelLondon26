@@ -1,13 +1,936 @@
 {
-  "site": {
-    "title": "MichelLondon26",
-    "description": "A mobile-first website"
+  "trip": {
+    "title": "London Family Trip 2026",
+    "subtitle": "Michel, Maryam & Raffi",
+    "startDate": "2026-06-20",
+    "endDate": "2026-06-27"
   },
-  "sections": [
+  "days": [
     {
-      "id": "welcome",
-      "heading": "Welcome",
-      "content": "This is the MichelLondon26 project."
+      "date": "2026-06-20",
+      "label": "Day 1 — Friday",
+      "theme": "Arrival & South Bank",
+      "slots": {
+        "morning": {
+          "time": "02:15 – 12:00",
+          "options": [
+            {
+              "id": "d1-m-1",
+              "name": "✈️ Flight DXB → LHR (EK0007)",
+              "icon": "🛬",
+              "description": "Depart Dubai 02:15 Terminal 3. Arrive London Heathrow 07:05 Terminal 3. Immigration, baggage, then Heathrow Express (15 min) or Tube (50 min) to central London. Check into hotel & freshen up.",
+              "duration": "7h 50min flight + 2h settle",
+              "address": "Heathrow Airport Terminal 3 → Hotel",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Piccadilly Line or Heathrow Express",
+                "duration": "15–50 min to central London",
+                "maps_url": "https://www.google.com/maps/dir/Heathrow+Airport/Central+London"
+              }
+            }
+          ]
+        },
+        "afternoon": {
+          "time": "12:00 – 17:00",
+          "options": [
+            {
+              "id": "d1-a-1",
+              "name": "Westminster Walk — Big Ben & Parliament",
+              "icon": "🏛️",
+              "description": "See Big Ben, Houses of Parliament, Westminster Bridge. Easy walking route along the Thames to ease into London.",
+              "duration": "2h",
+              "address": "Westminster, London SW1A 0AA",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "15 min along South Bank",
+                "maps_url": "https://www.google.com/maps/dir/Big+Ben/London+Eye"
+              }
+            },
+            {
+              "id": "d1-a-2",
+              "name": "Borough Market",
+              "icon": "🧀",
+              "description": "Iconic open food market — artisan cheese, fresh pastries, street food from around the world. Great first meal in London.",
+              "duration": "1.5h",
+              "address": "8 Southwark St, London SE1 1TL",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "20 min",
+                "maps_url": "https://www.google.com/maps/dir/Borough+Market/London+Eye"
+              }
+            },
+            {
+              "id": "d1-a-3",
+              "name": "South Bank Walk & Tate Modern",
+              "icon": "🎨",
+              "description": "Walk along the Thames past the Globe Theatre to Tate Modern. Free entry, converted power station, world-class modern art.",
+              "duration": "2.5h",
+              "address": "Bankside, London SE1 9TG",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "10 min",
+                "maps_url": "https://www.google.com/maps/dir/Tate+Modern/London+Eye"
+              }
+            }
+          ]
+        },
+        "evening": {
+          "time": "17:00 – 21:00",
+          "options": [
+            {
+              "id": "d1-e-1",
+              "name": "London Eye at Sunset",
+              "icon": "🎡",
+              "description": "30-min ride with panoramic views of the entire city. Book ahead to skip queues. Magic at golden hour.",
+              "duration": "1h",
+              "address": "Riverside Building, County Hall, SE1 7PB",
+              "confirmed": false
+            },
+            {
+              "id": "d1-e-2",
+              "name": "Dinner at Flat Iron Covent Garden",
+              "icon": "🥩",
+              "description": "Amazing affordable steak. Casual, kid-friendly. One of London's best value restaurants.",
+              "duration": "1.5h",
+              "address": "17 Henrietta St, WC2E 8QH",
+              "confirmed": false
+            },
+            {
+              "id": "d1-e-3",
+              "name": "Westminster Bridge Night Walk",
+              "icon": "🌙",
+              "description": "See Big Ben and Parliament lit up at night. Stunning photo ops. Easy after-dinner stroll.",
+              "duration": "30 min",
+              "address": "Westminster Bridge, SE1 7GP",
+              "confirmed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "label": "Day 2 — Saturday",
+      "theme": "Crown Jewels & West End Musical",
+      "slots": {
+        "morning": {
+          "time": "09:00 – 12:30",
+          "options": [
+            {
+              "id": "d2-m-1",
+              "name": "Tower of London — Crown Jewels",
+              "icon": "👑",
+              "description": "See the Crown Jewels, explore the medieval fortress, Beefeater tours, ravens. Book timed entry online. Arrive early to beat crowds at the Jewel House.",
+              "duration": "3h",
+              "address": "London EC3N 4AB",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "5 min",
+                "maps_url": "https://www.google.com/maps/dir/Tower+of+London/Tower+Bridge"
+              }
+            },
+            {
+              "id": "d2-m-2",
+              "name": "Buckingham Palace & Changing of the Guard",
+              "icon": "💂",
+              "description": "Watch the iconic ceremony (usually 11:00, check schedule). Arrive early for a good spot along the Mall.",
+              "duration": "2h",
+              "address": "Buckingham Palace, London SW1A 1AA",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "15 min",
+                "maps_url": "https://www.google.com/maps/dir/Buckingham+Palace/Westminster"
+              }
+            }
+          ]
+        },
+        "afternoon": {
+          "time": "12:30 – 17:00",
+          "options": [
+            {
+              "id": "d2-a-1",
+              "name": "Tower Bridge Exhibition & Borough Market Lunch",
+              "icon": "🌉",
+              "description": "Walk the glass floor high-level walkways at Tower Bridge, then head to Borough Market for an amazing lunch. Two icons in one afternoon.",
+              "duration": "3h",
+              "address": "Tower Bridge Rd, SE1 2UP",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Northern Line from London Bridge",
+                "duration": "15 min",
+                "maps_url": "https://www.google.com/maps/dir/Borough+Market/Leicester+Square"
+              }
+            },
+            {
+              "id": "d2-a-2",
+              "name": "Churchill War Rooms",
+              "icon": "🎖️",
+              "description": "Underground WWII bunker museum. Fascinating history — see where Churchill directed the war effort. Amazing for all ages.",
+              "duration": "2h",
+              "address": "Clive Steps, King Charles St, SW1A 2AQ",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "10 min",
+                "maps_url": "https://www.google.com/maps/dir/Churchill+War+Rooms/Leicester+Square"
+              }
+            },
+            {
+              "id": "d2-a-3",
+              "name": "Westminster Abbey",
+              "icon": "⛪",
+              "description": "Gothic architecture, royal tombs, coronation church. Poets' Corner, Tomb of the Unknown Warrior. Audio guide included.",
+              "duration": "2h",
+              "address": "20 Deans Yd, London SW1P 3PA",
+              "confirmed": false
+            }
+          ]
+        },
+        "evening": {
+          "time": "17:00 – 22:00",
+          "options": [
+            {
+              "id": "d2-e-1",
+              "name": "West End Musical — The Lion King",
+              "icon": "🎭",
+              "description": "Spectacular puppetry and music at the Lyceum Theatre. Perfect for the whole family. Book in advance!",
+              "duration": "2.5h",
+              "address": "Lyceum Theatre, 21 Wellington St, WC2E 7RQ",
+              "confirmed": true
+            },
+            {
+              "id": "d2-e-2",
+              "name": "West End Musical — Wicked",
+              "icon": "🧙‍♀️",
+              "description": "The untold story of the witches of Oz. Stunning sets and vocals at the Apollo Victoria Theatre.",
+              "duration": "2.5h",
+              "address": "Apollo Victoria Theatre, 17 Wilton Rd, SW1V 1LG",
+              "confirmed": false
+            },
+            {
+              "id": "d2-e-3",
+              "name": "West End Musical — Hamilton",
+              "icon": "🎵",
+              "description": "The hip-hop musical phenomenon. Your 13yo will love the energy. Victoria Palace Theatre.",
+              "duration": "2.5h",
+              "address": "Victoria Palace Theatre, Victoria St, SW1E 5EA",
+              "confirmed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "label": "Day 3 — Sunday",
+      "theme": "Museums & Open Markets",
+      "slots": {
+        "morning": {
+          "time": "09:00 – 12:30",
+          "options": [
+            {
+              "id": "d3-m-1",
+              "name": "Natural History Museum",
+              "icon": "🦕",
+              "description": "Free entry. Dinosaur gallery, blue whale skeleton, earthquake simulator, wildlife garden. Incredible building alone is worth the visit.",
+              "duration": "2.5h",
+              "address": "Cromwell Rd, South Kensington, SW7 5BD",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "3 min (next door)",
+                "maps_url": "https://www.google.com/maps/dir/Natural+History+Museum+London/Science+Museum+London"
+              }
+            },
+            {
+              "id": "d3-m-2",
+              "name": "Science Museum",
+              "icon": "🔬",
+              "description": "Free entry. Interactive galleries, IMAX theatre, space exploration, computing history. Wonderlab is hands-on fun for teens.",
+              "duration": "2.5h",
+              "address": "Exhibition Rd, South Kensington, SW7 2DD",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "3 min",
+                "maps_url": "https://www.google.com/maps/dir/Science+Museum/Natural+History+Museum+London"
+              }
+            },
+            {
+              "id": "d3-m-3",
+              "name": "Imperial War Museum",
+              "icon": "⚔️",
+              "description": "Free entry. WWI & WWII exhibits, Holocaust gallery, tanks and aircraft. Powerful and educational.",
+              "duration": "2.5h",
+              "address": "Lambeth Rd, London SE1 6HZ",
+              "confirmed": false
+            }
+          ]
+        },
+        "afternoon": {
+          "time": "12:30 – 17:00",
+          "options": [
+            {
+              "id": "d3-a-1",
+              "name": "Portobello Road Market (Sunday)",
+              "icon": "🎪",
+              "description": "Famous open-air market in Notting Hill. Antiques, vintage clothes, street food, colourful houses. Quieter on Sundays but shops are open.",
+              "duration": "2h",
+              "address": "Portobello Rd, Notting Hill, W11",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Notting Hill Gate",
+                "duration": "20 min",
+                "maps_url": "https://www.google.com/maps/dir/Portobello+Road+Market/Covent+Garden"
+              }
+            },
+            {
+              "id": "d3-a-2",
+              "name": "British Museum",
+              "icon": "🏺",
+              "description": "Free entry. Rosetta Stone, Egyptian mummies, Parthenon sculptures, Aztec treasures. One of the world's greatest history museums.",
+              "duration": "3h",
+              "address": "Great Russell St, WC1B 3DG",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Holborn",
+                "duration": "10 min",
+                "maps_url": "https://www.google.com/maps/dir/British+Museum/Covent+Garden"
+              }
+            },
+            {
+              "id": "d3-a-3",
+              "name": "Greenwich Market & Cutty Sark",
+              "icon": "⛵",
+              "description": "Covered artisan market + step aboard the famous tea clipper. Scenic area with Royal Observatory nearby.",
+              "duration": "2.5h",
+              "address": "Greenwich Market, SE10 9HZ",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Thames Clipper",
+                "duration": "30 min to Westminster",
+                "maps_url": "https://www.google.com/maps/dir/Greenwich+Pier/Westminster+Pier"
+              }
+            }
+          ]
+        },
+        "evening": {
+          "time": "17:00 – 21:00",
+          "options": [
+            {
+              "id": "d3-e-1",
+              "name": "Covent Garden Street Performers & Dinner",
+              "icon": "🎪",
+              "description": "Watch street magicians, musicians, and acrobats. Browse boutiques, then pick from dozens of restaurants.",
+              "duration": "2.5h",
+              "address": "Covent Garden, London WC2E 8RF",
+              "confirmed": false
+            },
+            {
+              "id": "d3-e-2",
+              "name": "Dishoom King's Cross",
+              "icon": "🍛",
+              "description": "Bombay-inspired restaurant — legendary black daal, lamb chops, naan. Book ahead, always packed. The whole family will love it.",
+              "duration": "1.5h",
+              "address": "5 Stable St, Kings Cross, N1C 4AB",
+              "confirmed": false
+            },
+            {
+              "id": "d3-e-3",
+              "name": "Evening at Southbank Centre",
+              "icon": "🎶",
+              "description": "Free foyer events, street food market, riverside atmosphere. Check what's on — often live music or film screenings.",
+              "duration": "2h",
+              "address": "Belvedere Rd, SE1 8XX",
+              "confirmed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "label": "Day 4 — Monday",
+      "theme": "Harry Potter Studio Tour",
+      "slots": {
+        "morning": {
+          "time": "08:00 – 13:00",
+          "options": [
+            {
+              "id": "d4-m-1",
+              "name": "Warner Bros Studio Tour — Harry Potter",
+              "icon": "⚡",
+              "description": "The Making of Harry Potter — original sets, props, costumes, Diagon Alley, Hogwarts Great Hall. Book months ahead! Shuttle bus from Watford Junction.",
+              "duration": "4–5h",
+              "address": "Studio Tour Dr, Leavesden WD25 7LR",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Shuttle + Tube",
+                "line": "Shuttle to Watford Junction → Metropolitan/Overground to London",
+                "duration": "1h back to central London",
+                "maps_url": "https://www.google.com/maps/dir/Warner+Bros.+Studio+Tour+London/Camden+Town+Station"
+              }
+            }
+          ]
+        },
+        "afternoon": {
+          "time": "14:00 – 17:00",
+          "options": [
+            {
+              "id": "d4-a-1",
+              "name": "Camden Market & Camden Lock",
+              "icon": "🎸",
+              "description": "Massive open market — street food from 30+ countries, vintage clothes, music memorabilia, alternative fashion. Your son will love it.",
+              "duration": "2.5h",
+              "address": "Camden Lock Place, NW1 8AF",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "15 min",
+                "maps_url": "https://www.google.com/maps/dir/Camden+Market/Primrose+Hill"
+              }
+            },
+            {
+              "id": "d4-a-2",
+              "name": "Platform 9¾ at King's Cross + Coal Drops Yard",
+              "icon": "🧙",
+              "description": "Photo at the Harry Potter platform, shop for HP merch. Then explore the stunning Coal Drops Yard — design shops and restaurants.",
+              "duration": "2h",
+              "address": "King's Cross Station, N1C 4QP",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Northern Line",
+                "duration": "5 min",
+                "maps_url": "https://www.google.com/maps/dir/King's+Cross/Camden+Town"
+              }
+            },
+            {
+              "id": "d4-a-3",
+              "name": "Madame Tussauds",
+              "icon": "🤳",
+              "description": "Wax figures of celebrities, Marvel zone, Star Wars experience, sports legends. Fun for teens.",
+              "duration": "2h",
+              "address": "Marylebone Rd, NW1 5LR",
+              "confirmed": false
+            }
+          ]
+        },
+        "evening": {
+          "time": "17:00 – 21:00",
+          "options": [
+            {
+              "id": "d4-e-1",
+              "name": "Camden Street Food Dinner",
+              "icon": "🌮",
+              "description": "KERB street food collective with global cuisines — Korean BBQ, Mexican, Lebanese. Casual, fun atmosphere by the canal.",
+              "duration": "1.5h",
+              "address": "Camden Market, NW1 8AF",
+              "confirmed": false
+            },
+            {
+              "id": "d4-e-2",
+              "name": "Primrose Hill Sunset",
+              "icon": "🌅",
+              "description": "One of the best sunset views over the entire London skyline. Short walk from Camden. Bring snacks and enjoy.",
+              "duration": "1h",
+              "address": "Primrose Hill, NW1 8QR",
+              "confirmed": false
+            },
+            {
+              "id": "d4-e-3",
+              "name": "Chinatown & Leicester Square",
+              "icon": "🥟",
+              "description": "Vibrant dinner in Chinatown — try Barshu for Sichuan or Wong Kei for classic. Then explore Leicester Square's lights.",
+              "duration": "2h",
+              "address": "Chinatown, London W1D 5QA",
+              "confirmed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "label": "Day 5 — Tuesday",
+      "theme": "Wembley, Go-Karting & Football",
+      "slots": {
+        "morning": {
+          "time": "09:00 – 12:30",
+          "options": [
+            {
+              "id": "d5-m-1",
+              "name": "Wembley Stadium Tour",
+              "icon": "🏟️",
+              "description": "Go behind the scenes — walk through the players' tunnel, sit in the dugout, see the Royal Box, hold a replica trophy. 75 min guided tour.",
+              "duration": "2h (incl. travel)",
+              "address": "Wembley Stadium, London HA9 0WS",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Metropolitan Line from Wembley Park",
+                "duration": "30 min to central London",
+                "maps_url": "https://www.google.com/maps/dir/Wembley+Stadium/TeamSport+Go+Karting+Bermondsey"
+              }
+            },
+            {
+              "id": "d5-m-2",
+              "name": "Tottenham Hotspur Stadium Tour",
+              "icon": "⚽",
+              "description": "Ultra-modern stadium — includes the Dare Skywalk on the roof! Walk the pitch, see changing rooms, press room. One of Europe's best stadiums.",
+              "duration": "2.5h (incl. travel)",
+              "address": "782 High Rd, Tottenham, N17 0BX",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Victoria Line from Seven Sisters",
+                "duration": "35 min",
+                "maps_url": "https://www.google.com/maps/dir/Tottenham+Hotspur+Stadium/TeamSport+Go+Karting+Bermondsey"
+              }
+            }
+          ]
+        },
+        "afternoon": {
+          "time": "13:00 – 17:00",
+          "options": [
+            {
+              "id": "d5-a-1",
+              "name": "Go-Karting — TeamSport Bermondsey",
+              "icon": "🏎️",
+              "description": "Indoor go-karting on a multi-level track. Speeds up to 40mph. Min age 8, so your son is good to go! Adrenaline rush for the whole family.",
+              "duration": "1.5h",
+              "address": "8 Drummond Rd, Bermondsey, SE16 4EE",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Jubilee Line from Bermondsey",
+                "duration": "15 min",
+                "maps_url": "https://www.google.com/maps/dir/TeamSport+Go+Karting+Bermondsey/London+Bridge"
+              }
+            },
+            {
+              "id": "d5-a-2",
+              "name": "Go-Karting — Capital Karts",
+              "icon": "🏁",
+              "description": "London's longest indoor karting track. Race against each other on 1km circuit. Arrive & Drive sessions available.",
+              "duration": "1.5h",
+              "address": "50 Ripple Rd, Barking, IG11 7PH",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "District Line from Barking",
+                "duration": "30 min",
+                "maps_url": "https://www.google.com/maps/dir/Capital+Karts/Liverpool+Street"
+              }
+            },
+            {
+              "id": "d5-a-3",
+              "name": "Emirates Stadium Tour (Arsenal)",
+              "icon": "🔴",
+              "description": "Self-guided tour of Arsenal's home. Dressing rooms, tunnel, pitchside, museum with trophies. Perfect add-on for football fans.",
+              "duration": "1.5h",
+              "address": "Hornsey Rd, London N7 7AJ",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Piccadilly Line from Arsenal",
+                "duration": "15 min",
+                "maps_url": "https://www.google.com/maps/dir/Emirates+Stadium/Kings+Cross"
+              }
+            }
+          ]
+        },
+        "evening": {
+          "time": "17:00 – 21:00",
+          "options": [
+            {
+              "id": "d5-e-1",
+              "name": "Football Match (Check Schedule!)",
+              "icon": "⚽",
+              "description": "Late June may have international friendlies, pre-season, or community matches. Check FA, Premier League, and club sites closer to date for fixtures.",
+              "duration": "3h",
+              "address": "Various London stadiums",
+              "confirmed": false
+            },
+            {
+              "id": "d5-e-2",
+              "name": "Sports Bar — The Faltering Fullback",
+              "icon": "📺",
+              "description": "Legendary sports pub in Finsbury Park with massive beer garden. Watch any live match on multiple screens.",
+              "duration": "2h",
+              "address": "19 Perth Rd, Finsbury Park, N4 3HB",
+              "confirmed": false
+            },
+            {
+              "id": "d5-e-3",
+              "name": "Dinner at The Ivy Tower Bridge",
+              "icon": "🍽️",
+              "description": "Elegant brasserie with Tower Bridge views. British classics with a modern twist. Kid-friendly menu available.",
+              "duration": "2h",
+              "address": "1 Tower Bridge, SE1 2AA",
+              "confirmed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "label": "Day 6 — Wednesday",
+      "theme": "Harrods, Designer Shopping & Luxury Watches",
+      "slots": {
+        "morning": {
+          "time": "09:00 – 13:00",
+          "options": [
+            {
+              "id": "d6-m-1",
+              "name": "Harrods",
+              "icon": "🏪",
+              "description": "The world's most famous department store. Explore the legendary Food Halls, fashion floors, and Egyptian escalator. Don't miss the perfumery.",
+              "duration": "3h",
+              "address": "87-135 Brompton Rd, Knightsbridge, SW1X 7XL",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "10 min to Sloane St / Harvey Nichols",
+                "maps_url": "https://www.google.com/maps/dir/Harrods/Harvey+Nichols"
+              }
+            },
+            {
+              "id": "d6-m-2",
+              "name": "Selfridges Oxford Street",
+              "icon": "🛍️",
+              "description": "Iconic department store with cutting-edge fashion. Great designer brands, beauty hall, and rooftop events in summer.",
+              "duration": "2.5h",
+              "address": "400 Oxford St, W1A 1AB",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "15 min to Bond Street",
+                "maps_url": "https://www.google.com/maps/dir/Selfridges/Bond+Street"
+              }
+            }
+          ]
+        },
+        "afternoon": {
+          "time": "13:00 – 17:30",
+          "options": [
+            {
+              "id": "d6-a-1",
+              "name": "Bond Street & Burlington Arcade — Luxury Watch Shopping",
+              "icon": "⌚",
+              "description": "New Bond Street is London's luxury mile. Rolex, Omega, Patek Philippe, Audemars Piguet at Watches of Switzerland and boutiques. Burlington Arcade for classic British luxury.",
+              "duration": "2.5h",
+              "address": "New Bond St & Burlington Arcade, W1S",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "5 min to Mayfair",
+                "maps_url": "https://www.google.com/maps/dir/Burlington+Arcade/Dover+Street+Market"
+              }
+            },
+            {
+              "id": "d6-a-2",
+              "name": "Designer Shopping — Sloane Street & Harvey Nichols",
+              "icon": "👗",
+              "description": "Sloane Street has Chanel, Dior, Valentino, Gucci all in a row. Harvey Nichols for multi-brand luxury. Perfect for Michel and wife.",
+              "duration": "2.5h",
+              "address": "Sloane St, Knightsbridge, SW1X",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Piccadilly Line from Knightsbridge",
+                "duration": "10 min",
+                "maps_url": "https://www.google.com/maps/dir/Harvey+Nichols/Soho+London"
+              }
+            },
+            {
+              "id": "d6-a-3",
+              "name": "Mount Street & Mayfair Boutiques",
+              "icon": "💎",
+              "description": "Quiet luxury strip — Balenciaga, Celine, Lanvin, plus independent jewellers. More relaxed than Bond Street.",
+              "duration": "2h",
+              "address": "Mount St, Mayfair, W1K",
+              "confirmed": false
+            }
+          ]
+        },
+        "evening": {
+          "time": "17:30 – 21:00",
+          "options": [
+            {
+              "id": "d6-e-1",
+              "name": "Son's Streetwear Run — Trapstar, Palm Angels, Corteiz",
+              "icon": "🔥",
+              "description": "Trapstar flagship on Portobello Rd, Palm Angels at Selfridges/Flannels, Corteiz (check for drops/pop-ups). Also hit Dover Street Market for cutting-edge brands.",
+              "duration": "2.5h",
+              "address": "Soho / Oxford St / Portobello Rd area",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "Within walking distance in Soho/West End",
+                "maps_url": "https://www.google.com/maps/dir/Dover+Street+Market/Soho+London"
+              }
+            },
+            {
+              "id": "d6-e-2",
+              "name": "Carnaby Street & Dinner in Soho",
+              "icon": "🍜",
+              "description": "Browse Carnaby Street's indie shops, then dinner in Soho — try Bao for Taiwanese buns or Hoppers for Sri Lankan.",
+              "duration": "2.5h",
+              "address": "Carnaby St & Soho, W1F",
+              "confirmed": false
+            },
+            {
+              "id": "d6-e-3",
+              "name": "Dinner at Hakkasan Mayfair",
+              "icon": "🥢",
+              "description": "Michelin-starred modern Chinese. Incredible dim sum and Peking duck. Celebrate the shopping day in style.",
+              "duration": "2h",
+              "address": "17 Bruton St, Mayfair, W1J 6QB",
+              "confirmed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "label": "Day 7 — Thursday",
+      "theme": "Hyde Park, West End Tour & Farewell",
+      "slots": {
+        "morning": {
+          "time": "09:00 – 12:30",
+          "options": [
+            {
+              "id": "d7-m-1",
+              "name": "Hyde Park & Serpentine Lake Boating",
+              "icon": "🚣",
+              "description": "Rent pedal boats or rowing boats on the Serpentine. Walk through the Italian Gardens, see the Peter Pan statue, Diana Memorial Fountain.",
+              "duration": "2.5h",
+              "address": "Hyde Park, London W2 2UH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "15 min through Kensington Gardens",
+                "maps_url": "https://www.google.com/maps/dir/Serpentine+Lake/Kensington+Palace"
+              }
+            },
+            {
+              "id": "d7-m-2",
+              "name": "Kensington Palace & Gardens",
+              "icon": "👸",
+              "description": "Princess Diana's former home. Royal fashion exhibition, beautiful sunken garden. Combined with a Kensington Gardens stroll.",
+              "duration": "2h",
+              "address": "Kensington Gardens, W8 4PX",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "10 min",
+                "maps_url": "https://www.google.com/maps/dir/Kensington+Palace/High+Street+Kensington"
+              }
+            }
+          ]
+        },
+        "afternoon": {
+          "time": "13:00 – 17:00",
+          "options": [
+            {
+              "id": "d7-a-1",
+              "name": "West End Backstage Tour — Theatre Royal Drury Lane",
+              "icon": "🎬",
+              "description": "Go behind the scenes of London's oldest theatre (1663). See backstage machinery, costume workshops, the Royal Box, and hear ghost stories. Guided tour.",
+              "duration": "1.5h",
+              "address": "Catherine St, Covent Garden, WC2B 5JF",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "5 min to Covent Garden",
+                "maps_url": "https://www.google.com/maps/dir/Theatre+Royal+Drury+Lane/Covent+Garden"
+              }
+            },
+            {
+              "id": "d7-a-2",
+              "name": "The View from The Shard",
+              "icon": "🏢",
+              "description": "Western Europe's tallest building. 360° views from floor 72. On a clear day you can see 40 miles. Book online for discounts.",
+              "duration": "1.5h",
+              "address": "32 London Bridge St, SE1 9SG",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Jubilee Line from London Bridge",
+                "duration": "10 min",
+                "maps_url": "https://www.google.com/maps/dir/The+Shard/Covent+Garden"
+              }
+            },
+            {
+              "id": "d7-a-3",
+              "name": "Sky Garden (Free Rooftop Views)",
+              "icon": "🌿",
+              "description": "Free entry (book ahead). Tropical garden at the top of the Walkie-Talkie building. 360° views, cafe inside.",
+              "duration": "1.5h",
+              "address": "20 Fenchurch St, EC3M 3BY",
+              "confirmed": false
+            }
+          ]
+        },
+        "evening": {
+          "time": "17:00 – 21:00",
+          "options": [
+            {
+              "id": "d7-e-1",
+              "name": "Farewell Dinner at Sketch (The Gallery)",
+              "icon": "🍽️",
+              "description": "Instagrammable pink restaurant in Mayfair. Afternoon tea or dinner — a memorable last night splurge. The egg-shaped toilets are famous!",
+              "duration": "2h",
+              "address": "9 Conduit St, Mayfair, W1S 2XG",
+              "confirmed": false
+            },
+            {
+              "id": "d7-e-2",
+              "name": "Farewell Dinner at The Ledbury",
+              "icon": "⭐",
+              "description": "Two Michelin stars in Notting Hill. Modern British fine dining. A truly special last-night experience.",
+              "duration": "2.5h",
+              "address": "127 Ledbury Rd, W11 2AQ",
+              "confirmed": false
+            },
+            {
+              "id": "d7-e-3",
+              "name": "Trafalgar Square to Piccadilly Night Walk",
+              "icon": "🌃",
+              "description": "Final evening stroll through London's heart. Nelson's Column, fountains, Piccadilly lights. Last family photos!",
+              "duration": "1.5h",
+              "address": "Trafalgar Square, WC2N 5DN",
+              "confirmed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "label": "Day 8 — Friday",
+      "theme": "Last Day & Departure",
+      "slots": {
+        "morning": {
+          "time": "09:00 – 12:00",
+          "options": [
+            {
+              "id": "d8-m-1",
+              "name": "Brick Lane Market & Street Art",
+              "icon": "🎨",
+              "description": "East London's coolest open market. Vintage finds, street art, the famous Beigel Bake bagels. Great for last-minute unique souvenirs.",
+              "duration": "2h",
+              "address": "Brick Lane, London E1 6QR",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Liverpool Street",
+                "duration": "15 min",
+                "maps_url": "https://www.google.com/maps/dir/Brick+Lane/Oxford+Circus"
+              }
+            },
+            {
+              "id": "d8-m-2",
+              "name": "Last-minute Shopping — Regent Street & Hamleys",
+              "icon": "🎁",
+              "description": "Pick up final souvenirs on Regent Street. Hamleys toy store (7 floors!) is a must for one last family stop.",
+              "duration": "2h",
+              "address": "Regent Street, W1B 5AH",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Walk",
+                "duration": "5 min to Piccadilly",
+                "maps_url": "https://www.google.com/maps/dir/Hamleys/Piccadilly+Circus"
+              }
+            },
+            {
+              "id": "d8-m-3",
+              "name": "Notting Hill Colourful Houses Walk",
+              "icon": "🏡",
+              "description": "Pastel-coloured houses, the bookshop from the movie, quiet leafy streets. A relaxed last morning.",
+              "duration": "1.5h",
+              "address": "Portobello Rd, Notting Hill, W11",
+              "confirmed": false
+            }
+          ]
+        },
+        "afternoon": {
+          "time": "12:00 – 17:00",
+          "options": [
+            {
+              "id": "d8-a-1",
+              "name": "Spitalfields Market & Lunch",
+              "icon": "🛒",
+              "description": "Trendy covered market in East London. Fashion, artisan food, vintage. Great last lunch spot.",
+              "duration": "2h",
+              "address": "16 Horner Square, London E1 6EW",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line",
+                "duration": "20 min",
+                "maps_url": "https://www.google.com/maps/dir/Spitalfields+Market/Hotel"
+              }
+            },
+            {
+              "id": "d8-a-2",
+              "name": "Little Venice Canal Walk",
+              "icon": "🛶",
+              "description": "Pretty canal boats near Paddington. Peaceful last London memory before heading to the airport.",
+              "duration": "1h",
+              "address": "Blomfield Rd, Little Venice, W9 2PD",
+              "confirmed": false,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Bakerloo Line",
+                "duration": "15 min to Paddington",
+                "maps_url": "https://www.google.com/maps/dir/Little+Venice/Paddington+Station"
+              }
+            },
+            {
+              "id": "d8-a-3",
+              "name": "Relax & Pack at Hotel",
+              "icon": "🧳",
+              "description": "Take it easy. Pack up, rest before the overnight flight. Maybe a last coffee at a nearby cafe.",
+              "duration": "2h",
+              "address": "Your hotel",
+              "confirmed": false
+            }
+          ]
+        },
+        "evening": {
+          "time": "18:00 – 22:15",
+          "options": [
+            {
+              "id": "d8-e-1",
+              "name": "Early Dinner & Head to Heathrow ✈️",
+              "icon": "🛫",
+              "description": "Grab a final dinner near the hotel or at Heathrow Terminal 3. Flight EK0006 departs 22:15 to Dubai (arrives 08:50+1). Be at airport by 19:30.",
+              "duration": "4h (dinner + travel + check-in)",
+              "address": "Hotel → Heathrow Airport Terminal 3",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Piccadilly Line or Heathrow Express",
+                "duration": "15–50 min to Heathrow",
+                "maps_url": "https://www.google.com/maps/dir/Central+London/Heathrow+Airport+Terminal+3"
+              }
+            }
+          ]
+        }
+      }
     }
   ]
 }
