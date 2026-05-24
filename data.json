@@ -1,0 +1,13 @@
+{
+  "site": {
+    "title": "MichelLondon26",
+    "description": "A mobile-first website"
+  },
+  "sections": [
+    {
+      "id": "welcome",
+      "heading": "Welcome",
+      "content": "This is the MichelLondon26 project."
+    }
+  ]
+}
