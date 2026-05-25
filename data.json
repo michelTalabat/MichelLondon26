@@ -15,21 +15,6 @@
           "time": "02:15 – 12:00",
           "options": [
             {
-              "id": "hotel-start-d1",
-              "name": "Leave Hotel — Marble Arch by Thistle",
-              "icon": "🏨",
-              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
-              "duration": "15 min",
-              "address": "Bryanston St, Marble Arch, London W1H 7EH",
-              "confirmed": true,
-              "transport_to_next": {
-                "mode": "Tube",
-                "line": "Central Line from Marble Arch",
-                "duration": "10–25 min",
-                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
-              }
-            },
-            {
               "id": "d1-m-1",
               "name": "✈️ Flight DXB → LHR (EK0007)",
               "icon": "🛬",
@@ -122,15 +107,6 @@
               "duration": "30 min",
               "address": "Westminster Bridge, SE1 7GP",
               "confirmed": false
-            },
-            {
-              "id": "hotel-end-d1",
-              "name": "Return to Hotel — Marble Arch by Thistle",
-              "icon": "🏨",
-              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
-              "duration": "15 min",
-              "address": "Bryanston St, Marble Arch, London W1H 7EH",
-              "confirmed": true
             }
           ]
         }

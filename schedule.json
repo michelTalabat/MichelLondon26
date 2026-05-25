@@ -1,6 +1,5 @@
 {
   "2026-06-20-morning": [
-    "hotel-start-d1",
     "d1-m-1",
     "d7-m-1"
   ],
@@ -16,8 +15,7 @@
   ],
   "2026-06-20-evening": [
     "d6-m-2",
-    "d3-e-1",
-    "hotel-end-d1"
+    "d3-e-1"
   ],
   "2026-06-23-morning": [
     "hotel-start-d4",
