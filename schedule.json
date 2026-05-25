@@ -1,9 +1,11 @@
 {
   "2026-06-20-morning": [
+    "hotel-start-d1",
     "d1-m-1",
     "d7-m-1"
   ],
   "2026-06-22-morning": [
+    "hotel-start-d3",
     "d2-m-2",
     "d2-m-1"
   ],
@@ -14,9 +16,11 @@
   ],
   "2026-06-20-evening": [
     "d6-m-2",
-    "d3-e-1"
+    "d3-e-1",
+    "hotel-end-d1"
   ],
   "2026-06-23-morning": [
+    "hotel-start-d4",
     "d3-m-1",
     "d3-m-2",
     "d3-a-2"
@@ -29,6 +33,7 @@
     "d2-a-1"
   ],
   "2026-06-21-morning": [
+    "hotel-start-d2",
     "d2-a-3",
     "d1-a-1"
   ],
@@ -36,9 +41,11 @@
     "d7-a-1"
   ],
   "2026-06-24-evening": [
-    "d2-e-1"
+    "d2-e-1",
+    "hotel-end-d5"
   ],
   "2026-06-24-morning": [
+    "hotel-start-d5",
     "d5-m-1"
   ],
   "2026-06-23-afternoon": [
@@ -46,11 +53,13 @@
   ],
   "2026-06-23-evening": [
     "d1-e-1",
-    "d1-e-2"
+    "d1-e-2",
+    "hotel-end-d4"
   ],
   "2026-06-22-evening": [
     "d1-e-3",
-    "d7-e-2"
+    "d7-e-2",
+    "hotel-end-d3"
   ],
   "2026-06-25-afternoon": [
     "d8-m-2",
@@ -59,6 +68,7 @@
     "d6-a-3"
   ],
   "2026-06-26-morning": [
+    "hotel-start-d7",
     "d7-m-2"
   ],
   "2026-06-26-afternoon": [
@@ -69,19 +79,27 @@
   "2026-06-26-evening": [
     "d7-e-3",
     "d8-a-2",
-    "d5-e-3"
+    "d5-e-3",
+    "hotel-end-d7"
   ],
   "2026-06-27-morning": [
+    "hotel-start-d8",
     "d8-m-1"
   ],
   "2026-06-21-evening": [
-    "d4-e-3"
+    "d4-e-3",
+    "hotel-end-d2"
   ],
   "2026-06-25-morning": [
+    "hotel-start-d6",
     "d6-a-1",
     "d6-a-2"
   ],
   "2026-06-25-evening": [
-    "d6-e-2"
+    "d6-e-2",
+    "hotel-end-d6"
+  ],
+  "2026-06-27-evening": [
+    "hotel-end-d8"
   ]
 }

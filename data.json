@@ -15,6 +15,21 @@
           "time": "02:15 – 12:00",
           "options": [
             {
+              "id": "hotel-start-d1",
+              "name": "Leave Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Marble Arch",
+                "duration": "10–25 min",
+                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
+              }
+            },
+            {
               "id": "d1-m-1",
               "name": "✈️ Flight DXB → LHR (EK0007)",
               "icon": "🛬",
@@ -107,6 +122,15 @@
               "duration": "30 min",
               "address": "Westminster Bridge, SE1 7GP",
               "confirmed": false
+            },
+            {
+              "id": "hotel-end-d1",
+              "name": "Return to Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true
             }
           ]
         }
@@ -120,6 +144,21 @@
         "morning": {
           "time": "09:00 – 12:30",
           "options": [
+            {
+              "id": "hotel-start-d2",
+              "name": "Leave Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Marble Arch",
+                "duration": "10–25 min",
+                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
+              }
+            },
             {
               "id": "d2-m-1",
               "name": "Tower of London — Crown Jewels",
@@ -222,6 +261,15 @@
               "duration": "2.5h",
               "address": "Victoria Palace Theatre, Victoria St, SW1E 5EA",
               "confirmed": false
+            },
+            {
+              "id": "hotel-end-d2",
+              "name": "Return to Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true
             }
           ]
         }
@@ -235,6 +283,21 @@
         "morning": {
           "time": "09:00 – 12:30",
           "options": [
+            {
+              "id": "hotel-start-d3",
+              "name": "Leave Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Marble Arch",
+                "duration": "10–25 min",
+                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
+              }
+            },
             {
               "id": "d3-m-1",
               "name": "Natural History Museum",
@@ -352,6 +415,15 @@
               "duration": "2h",
               "address": "Belvedere Rd, SE1 8XX",
               "confirmed": false
+            },
+            {
+              "id": "hotel-end-d3",
+              "name": "Return to Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true
             }
           ]
         }
@@ -365,6 +437,21 @@
         "morning": {
           "time": "08:00 – 13:00",
           "options": [
+            {
+              "id": "hotel-start-d4",
+              "name": "Leave Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Marble Arch",
+                "duration": "10–25 min",
+                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
+              }
+            },
             {
               "id": "d4-m-1",
               "name": "Warner Bros Studio Tour — Harry Potter",
@@ -454,6 +541,15 @@
               "duration": "2h",
               "address": "Chinatown, London W1D 5QA",
               "confirmed": false
+            },
+            {
+              "id": "hotel-end-d4",
+              "name": "Return to Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true
             }
           ]
         }
@@ -467,6 +563,21 @@
         "morning": {
           "time": "09:00 – 12:30",
           "options": [
+            {
+              "id": "hotel-start-d5",
+              "name": "Leave Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Marble Arch",
+                "duration": "10–25 min",
+                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
+              }
+            },
             {
               "id": "d5-m-1",
               "name": "Wembley Stadium Tour",
@@ -578,6 +689,15 @@
               "duration": "2h",
               "address": "1 Tower Bridge, SE1 2AA",
               "confirmed": false
+            },
+            {
+              "id": "hotel-end-d5",
+              "name": "Return to Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true
             }
           ]
         }
@@ -591,6 +711,21 @@
         "morning": {
           "time": "09:00 – 13:00",
           "options": [
+            {
+              "id": "hotel-start-d6",
+              "name": "Leave Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Marble Arch",
+                "duration": "10–25 min",
+                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
+              }
+            },
             {
               "id": "d6-m-1",
               "name": "Harrods",
@@ -698,6 +833,15 @@
               "duration": "2h",
               "address": "17 Bruton St, Mayfair, W1J 6QB",
               "confirmed": false
+            },
+            {
+              "id": "hotel-end-d6",
+              "name": "Return to Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true
             }
           ]
         }
@@ -711,6 +855,21 @@
         "morning": {
           "time": "09:00 – 12:30",
           "options": [
+            {
+              "id": "hotel-start-d7",
+              "name": "Leave Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Marble Arch",
+                "duration": "10–25 min",
+                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
+              }
+            },
             {
               "id": "d7-m-1",
               "name": "Hyde Park & Serpentine Lake Boating",
@@ -813,6 +972,15 @@
               "duration": "1.5h",
               "address": "Trafalgar Square, WC2N 5DN",
               "confirmed": false
+            },
+            {
+              "id": "hotel-end-d7",
+              "name": "Return to Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true
             }
           ]
         }
@@ -826,6 +994,21 @@
         "morning": {
           "time": "09:00 – 12:00",
           "options": [
+            {
+              "id": "hotel-start-d8",
+              "name": "Leave Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Depart from Marble Arch by Thistle hotel. Located steps from Marble Arch tube station (Central Line).",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true,
+              "transport_to_next": {
+                "mode": "Tube",
+                "line": "Central Line from Marble Arch",
+                "duration": "10–25 min",
+                "maps_url": "https://www.google.com/maps/dir/Thistle+Marble+Arch/Central+London"
+              }
+            },
             {
               "id": "d8-m-1",
               "name": "Brick Lane Market & Street Art",
@@ -927,6 +1110,15 @@
                 "duration": "15–50 min to Heathrow",
                 "maps_url": "https://www.google.com/maps/dir/Central+London/Heathrow+Airport+Terminal+3"
               }
+            },
+            {
+              "id": "hotel-end-d8",
+              "name": "Return to Hotel — Marble Arch by Thistle",
+              "icon": "🏨",
+              "description": "Head back to the hotel for the night. Marble Arch tube station is on the Central Line.",
+              "duration": "15 min",
+              "address": "Bryanston St, Marble Arch, London W1H 7EH",
+              "confirmed": true
             }
           ]
         }

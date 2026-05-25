@@ -65,19 +65,6 @@ body:not(.planner-page) {
   background: rgba(255,255,255,0.05);
 }
 
-.nav-export {
-  padding: 8px 16px;
-  margin: auto 12px auto 0;
-  background: var(--red);
-  color: var(--white);
-  border: none;
-  border-radius: var(--radius-sm);
-  font-weight: 600;
-  font-size: 0.85rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
 /* === Hero === */
 .hero {
   background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
