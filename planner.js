@@ -449,4 +449,17 @@ function removeFromItinerary(e, date, slotName, optionId) {
   renderPanels();
 }
 
+function exportSchedule() {
+  const data = JSON.stringify(selections, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'schedule.json';
+  a.style.display = 'none';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+}
+
 init();
