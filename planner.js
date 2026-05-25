@@ -1,16 +1,28 @@
 let tripData = null;
-let selections = loadSelections();
+let selections = {};
 let activeDay = 0;
 let searchQuery = '';
 
-function loadSelections() {
-  const raw = JSON.parse(localStorage.getItem('londonSelections') || '{}');
-  for (const key in raw) {
-    if (!Array.isArray(raw[key])) {
-      raw[key] = raw[key] ? [raw[key]] : [];
+async function loadSelections() {
+  try {
+    const res = await fetch('schedule.json');
+    if (!res.ok) throw new Error('No schedule.json');
+    const raw = await res.json();
+    for (const key in raw) {
+      if (!Array.isArray(raw[key])) {
+        raw[key] = raw[key] ? [raw[key]] : [];
+      }
     }
+    return raw;
+  } catch {
+    const raw = JSON.parse(localStorage.getItem('londonSelections') || '{}');
+    for (const key in raw) {
+      if (!Array.isArray(raw[key])) {
+        raw[key] = raw[key] ? [raw[key]] : [];
+      }
+    }
+    return raw;
   }
-  return raw;
 }
 
 function saveSelections() {
@@ -129,6 +141,7 @@ function computeItineraryTimes(day) {
 async function init() {
   const res = await fetch('data.json');
   tripData = await res.json();
+  selections = await loadSelections();
   renderDayTabs();
   renderPanels();
 }
